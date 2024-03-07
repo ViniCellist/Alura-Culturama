@@ -43,6 +43,11 @@
     justify-content: center;
 }
 
+.agenda__item {
+    flex-grow: 1;
+    max-width: 400px;
+}
+
 @media (min-width: 720px) {
 
     .menu {
@@ -55,8 +60,8 @@
         row-gap: 1rem;
     }
 
-    .eventis__lista {
-        justify-content: end;
+    .eventos__lista {
+        justify-content: center;
     }
 
 }
